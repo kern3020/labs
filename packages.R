@@ -1,9 +1,19 @@
-# For all weeks:
+
+#####################################################################
+# This list has not been updated since 2014
+#
+# All of these packages are not necessary for the 2015 classes
+#
+# If you are taking the one of the 2015 classes, it might
+# be better to install as you go using the scripts which are
+# provided for each lecture.
+######################################################################
+
 
 install.packages("devtools")
 library(devtools)
-install_github("rafalib","ririzarr")
-install_github("dagdata","genomicsclass")
+install_github("ririzarr/rafalib")
+install_github("genomicsclass/dagdata")
 
 source("http://bioconductor.org/biocLite.R")
 biocLite()
